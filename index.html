@@ -7,15 +7,36 @@
 
     <!-- STYLE  -->
     <style type="text/css">
-      body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
-      table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
-      img { -ms-interpolation-mode: bicubic; border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; }
+      :focus {
+        outline: 2px dotted #7e57c2;
+        outline-offset: 3px;
+      }
+      body,
+      table,
+      td,
+      a {
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+      }
+      table,
+      td {
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+      }
+      img {
+        -ms-interpolation-mode: bicubic;
+        border: 0;
+        height: auto;
+        line-height: 100%;
+        outline: none;
+        text-decoration: none;
+      }
       body {
         margin: 0;
         padding: 0;
         width: 100%;
-        background-color: #fdf6e3; /* och sarg‘ish fon */
-        font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+        background-color: #fdf6e3;
+        font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
       }
       .container {
         width: 100%;
@@ -24,7 +45,7 @@
         background-color: #ffffff;
       }
       .header {
-        background-color: #004d40; /* to‘q yashil */
+        background-color: #004d40; 
         color: #ffffff;
         text-align: center;
         padding: 20px;
@@ -56,13 +77,13 @@
       .info-panel {
         background-color: #f7f9fb;
         padding: 15px;
-        border-left: 4px solid #7e57c2; /* binafsha */
+        border-left: 4px solid #7e57c2; 
         margin: 15px 0;
       }
       .learn-more-button {
         display: inline-block;
         padding: 10px 20px;
-        background-color: #c62828; /* to‘q qizil */
+        background-color: #c62828;
         color: #ffffff;
         text-decoration: none;
         border-radius: 5px;
@@ -76,7 +97,7 @@
       .cta-button {
         display: inline-block;
         padding: 12px 24px;
-        background-color: #43a047; /* yashil */
+        background-color: #43a047; 
         color: #ffffff;
         text-decoration: none;
         border-radius: 5px;
@@ -88,7 +109,7 @@
         background-color: #2e7d32;
       }
       .footer {
-        background-color: #263238; /* to‘q kulrang */
+        background-color: #263238; 
         color: #ffffff;
         text-align: center;
         padding: 20px;
@@ -99,63 +120,97 @@
         text-decoration: underline;
       }
     </style>
-
   </head>
   <body>
-    <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="background-color: #fdf6e3;">
+    <table
+      role="presentation"
+      width="100%"
+      cellspacing="0"
+      cellpadding="0"
+      style="background-color: #fdf6e3"
+    >
       <tbody>
         <tr>
           <td align="center">
             <!-- Container  -->
-            <table class="container" width="600" cellspacing="0" cellpadding="0" style="background-color: #fff;">
-
+            <table
+              class="container"
+              width="600"
+              cellspacing="0"
+              cellpadding="0"
+              style="background-color: #fff"
+            >
               <tr>
                 <td class="header">
-                  <img src="" alt="Bilim Ol Logo">
-                  <h1 style="font-size: 20px; margin: 10px 0;">Accelerate Your Dev Career with Bilim Ol</h1>
+                  <img src="" alt="Bilim Ol Logo" />
+                  <h1 style="font-size: 20px; margin: 10px 0">
+                    Accelerate Your Dev Career with Bilim Ol
+                  </h1>
                 </td>
               </tr>
 
               <tr>
                 <td class="content">
                   <h1>Achieve high results with Bilim Ol!</h1>
-                  <p>At <strong>Bilim Ol</strong>, we know how tough it can be to grow as a developer without guidance or the right tools. That’s why we built a powerful online learning platform just for devs — with hands-on challenges, AI mentorship, and job-ready skills.</p>
+                  <p>
+                    At <strong>Bilim Ol</strong>, we know how tough it can be to
+                    grow as a developer without guidance or the right tools.
+                    That’s why we built a powerful online learning platform just
+                    for devs — with hands-on challenges, AI mentorship, and
+                    job-ready skills.
+                  </p>
 
                   <h2>Exclusive offering</h2>
 
                   <div class="info-panel">
-                    <strong>Real-World Projects & Challenges</strong><br>
-                    Build full-stack applications, solve algorithm challenges, and submit your solutions for instant feedback.<br>
+                    <strong>Real-World Projects & Challenges</strong><br />
+                    Build full-stack applications, solve algorithm challenges,
+                    and submit your solutions for instant feedback.<br />
                     <a class="learn-more-button" href="">Learn More Now</a>
                   </div>
 
                   <div class="info-panel">
-                    <strong>1-Month Free Premium Access</strong><br>
-                    Get started with a <strong>1-month free trial</strong>. Access all premium tutorials, project blueprints, and coding resources with zero commitment.<br>
+                    <strong>1-Month Free Premium Access</strong><br />
+                    Get started with a <strong>1-month free trial</strong>.
+                    Access all premium tutorials, project blueprints, and coding
+                    resources with zero commitment.<br />
                     <a class="learn-more-button" href="">Learn More Now</a>
                   </div>
 
                   <div class="info-panel">
-                    <strong>Stuck on a bug? Our AI assistant offers real-time explanations, debugging tips, and code reviews.</strong><br>
-                    Build full-stack applications, solve algorithm challenges, and submit your solutions for instant feedback.<br>
+                    <strong
+                      >Stuck on a bug? Our AI assistant offers real-time
+                      explanations, debugging tips, and code reviews.</strong
+                    ><br />
+                    Build full-stack applications, solve algorithm challenges,
+                    and submit your solutions for instant feedback.<br />
                     <a class="learn-more-button" href="">Learn More Now</a>
                   </div>
 
                   <div class="info-panel">
-                    <strong>Certification Tracks for Frontend, Backend & Full-Stack</strong><br>
-                    Validate your skills with our industry-approved certifications. Track your progress and share your badge with employers.<br>
+                    <strong
+                      >Certification Tracks for Frontend, Backend &
+                      Full-Stack</strong
+                    ><br />
+                    Validate your skills with our industry-approved
+                    certifications. Track your progress and share your badge
+                    with employers.<br />
                     <a class="learn-more-button" href="">Learn More Now</a>
                   </div>
 
                   <div class="info-panel">
-                    <strong>Become an Instructor or Affiliate Partner</strong><br>
-                    Earn by teaching or promoting Bilim Ol. Share your knowledge or refer others and build passive income.<br>
+                    <strong>Become an Instructor or Affiliate Partner</strong
+                    ><br />
+                    Earn by teaching or promoting Bilim Ol. Share your knowledge
+                    or refer others and build passive income.<br />
                     <a class="learn-more-button" href="">Learn More Now</a>
                   </div>
 
                   <div align="center">
-                    <h2 style="margin-bottom: 0;">Ready to level up?</h2>
-                    <a class="cta-button" href="">Start Your Free Trial Today</a>
+                    <h2 style="margin-bottom: 0">Ready to level up?</h2>
+                    <a class="cta-button" href=""
+                      >Start Your Free Trial Today</a
+                    >
                   </div>
                 </td>
               </tr>
@@ -164,10 +219,18 @@
               <tr>
                 <td class="footer">
                   <p>© 2025 Bilim Ol. All rights reserved.</p>
-                  <p>Visit <a href="https://bilim-ol.uz" target="_blank">Bilim-ol.uz</a> | <a target="_blank" href="https://bilim-ol.uz/unsubscribe">Unsubscribe</a></p>
+                  <p>
+                    Visit
+                    <a href="https://bilim-ol.uz" target="_blank"
+                      >Bilim-ol.uz</a
+                    >
+                    |
+                    <a target="_blank" href="https://bilim-ol.uz/unsubscribe"
+                      >Unsubscribe</a
+                    >
+                  </p>
                 </td>
               </tr>
-
             </table>
           </td>
         </tr>
